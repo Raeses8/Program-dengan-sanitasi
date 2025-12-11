@@ -1,4 +1,4 @@
-/* === POSISI TENGAH HALAMAN === */
+
 body {
     background: #111;
     font-family: Arial, sans-serif;
@@ -6,12 +6,12 @@ body {
     margin: 0;
     flex-direction: column;
     display: flex;
-    justify-content: center;   /* tengah kiri-kanan */
-    align-items: center;       /* tengah atas-bawah */
-    min-height: 100vh;         /* full layar */
+    justify-content: center;  
+    align-items: center;       
+    min-height: 100vh;        
 }
 
-/* Kotak form */
+
 form {
     background: #1a1a1a;
     padding: 25px;
@@ -20,13 +20,12 @@ form {
     box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
-/* Judul */
+
 h2 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Baris input agar label + input rapi */
 .form-row {
     display: flex;
     justify-content: space-between;
@@ -51,7 +50,7 @@ h2 {
     border-radius: 6px;
 }
 
-/* Tombol submit */
+
 input[type="submit"] {
     width: 100%;
     padding: 12px;
@@ -66,3 +65,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #e63232;
 }
+
