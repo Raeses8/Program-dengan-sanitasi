@@ -1,0 +1,68 @@
+/* === POSISI TENGAH HALAMAN === */
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;   /* tengah kiri-kanan */
+    align-items: center;       /* tengah atas-bawah */
+    min-height: 100vh;         /* full layar */
+}
+
+/* Kotak form */
+form {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+/* Judul */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Baris input agar label + input rapi */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-row label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row select {
+    flex: 1;
+    padding: 8px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Tombol submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #e63232;
+}
